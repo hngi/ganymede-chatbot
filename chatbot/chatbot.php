@@ -152,7 +152,7 @@ function gettTime(){
                      height: auto;
             margin: auto;"> <p id='pattern'>
     <?php foreach($_SESSION["all"] as list($asked,$soln )){ ?>
-    <span style="color:midnightblue; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); float:left;margin-bottom: 2%; padding:2%; border-radius:25px;"><?=  "YOU : $soln <br/>";echo "</span><br />"; echo "<span style=\"color:white; background-color:orange; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); float:right; margin-bottom:2%; padding:2%; border-radius:25px;\">";
+    <span style="color:white; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); background-color:#3182CE; float:left;margin-bottom: 2%; padding:2%; border-radius:25px;"><?=  "YOU : $soln <br/>";echo "</span><br />"; echo "<span style=\"color:black; background-color:white; box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); float:right; margin-bottom:2%; padding:2%; border-radius:25px;\">";
         echo "BOT : $asked<br/>" ?></span>
 <?php }?></p></div>
             <form class="w-50 mt-2" method = post>
